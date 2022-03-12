@@ -1,0 +1,18 @@
+<mvc:View
+    controllerName="com.nttdata.sap.training2022.ntt04.ca.appntt04dm01.controller.App_demo_NTT04_1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content />
+                        <Text text="Hello!" />
+                    <content />
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
